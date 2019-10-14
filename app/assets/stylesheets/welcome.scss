@@ -1,0 +1,45 @@
+
+body {
+    margin: 2rem;
+}
+
+.banner_image {
+    background: image-url('cold.jpeg');
+    background-size: cover;
+    height: 75vh;
+}
+
+.welcome_container{
+    display: flex; 
+    width: 90%; 
+    height: 70%; 
+    margin: auto; 
+}
+
+.welcome_text{
+    margin: 12rem 0;
+    max-width: 45%;
+}
+
+.typewrite {
+    color: darkblue;
+}
+
+// Transition between opacity
+@keyframes blink{
+    from {border-right: 0.08em solid rgba(255, 255, 255, 1.0)}
+    to {border-right: 0.08em solid rgba(255, 255, 255, 0.0)}
+}
+
+.wrap{
+    border-right: 0.08em solid #fff;
+    animation: blink 1s infinite;
+}
+
+.h1{
+    font-size: 2.5rem;
+}
+
+.flexbox{
+    display: flex;
+}
