@@ -3,10 +3,15 @@ body {
     margin: 2rem;
 }
 
+img{
+    width: 100%;
+}
+
 .banner_image {
     background: image-url('cold.jpeg');
     background-size: cover;
     height: 75vh;
+    margin-bottom: 4rem;
 }
 
 .welcome_container{
@@ -18,7 +23,7 @@ body {
 
 .welcome_text{
     margin: 12rem 0;
-    max-width: 45%;
+    max-width: 30rem;
 }
 
 .typewrite {
@@ -42,4 +47,54 @@ body {
 
 .flexbox{
     display: flex;
+}
+
+//About page image
+.circle_image{
+    width: 12rem;
+    margin: auto;
+}
+
+.circle_image img{
+    border-radius: 50%;
+}
+
+//Footer image
+.circle_image_small{
+    width: 3rem;
+    margin: 0 2rem;
+}
+
+.circle_image_small img{
+    border-radius: 50%;
+}
+
+//Projects list
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project_container {
+    filter: brightness(100%);
+    width: 40%;
+    padding: 2rem;
+    transition: all 1s ease;
+}
+
+//Projects animation
+.project_container:hover{
+    filter: brightness(80%);
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.text_area{
+    height:10rem !important;
+    width: 15rem;
 }

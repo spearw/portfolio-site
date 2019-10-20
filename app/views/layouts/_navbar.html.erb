@@ -1,22 +1,23 @@
 
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-sm navbar-light">
     <div class="d-flex flex-grow-1">
-        <a class="navbar-brand d-lg-inline-block h1" href="#">
-            William Spear
-        </a>
+        <%= link_to "William Spear", {:controller => 'welcome', :action => 'index'}, class: "navbar-brand d-lg-inline-block h1" %>
         <div class="w-100 text-right">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
     </div>
-    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+    <div class="collapse navbar-collapse flex-grow-1 text-right">
         <ul class="navbar-nav ml-auto flex-nowrap"> 
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">Contact</a>
+                <%= link_to "Projects", {:controller => 'pages', :action => 'projects'}, class: "nav-link m-2 menu-item" %>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link m-2 menu-item">About</a>
+                <%= link_to "Contact Me", {:controller => 'messages', :action => 'new'}, class: "nav-link m-2 menu-item" %>
+            </li>
+            <li class="nav-item">
+                <%= link_to "About", {:controller => 'pages', :action => 'about'}, class: "nav-link m-2 menu-item" %>
             </li>
         </ul>
     </div>
