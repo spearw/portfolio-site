@@ -3,8 +3,6 @@ var blurbList = ["love to develop.", "am scared of the ocean.", "am a doer.", "p
 "have traveled the world - and seen a LOT of convention centers.", "think Budapest is a great city to visit.", "like cold drinks, even in winter.", "like my coffee.", "gave a best man speech with two minutes warning.", "think Mulan is the best Disney movie, but Moana has the best music.",
 "was captain of my college Fencing team."
 ]
-//test concept
-var blurbList = ["am testing this format."]
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;

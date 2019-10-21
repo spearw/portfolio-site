@@ -74,6 +74,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: baseline;
 }
 
 .project_container {
@@ -97,4 +98,20 @@ img{
 .text_area{
     height:10rem !important;
     width: 15rem;
+}
+
+//Project induvidual pages:w
+.project_main_container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.project_main_picture{
+   max-width: 80%;
+    margin: auto;
+}
+
+.float_image{
+    max-width: 50%;
+    height: auto;
 }
