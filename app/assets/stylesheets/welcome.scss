@@ -4,7 +4,7 @@ body {
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .banner_image {
@@ -75,6 +75,11 @@ img{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: baseline;
+    text-align: center;
+}
+
+.projects span {
+    padding: 1rem;
 }
 
 .project_container {
@@ -82,6 +87,8 @@ img{
     width: 40%;
     padding: 2rem;
     transition: all 1s ease;
+    flex-direction: column;
+    display: flex;
 }
 
 //Projects animation

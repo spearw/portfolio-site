@@ -1,0 +1,21 @@
+<div class="border-top">
+    <div class="project_main_container">
+        <h2 class="text-center p-4">
+            NYU Population Genetics Lab
+        </h2>
+        <div class="project_main_picture border">
+            <%= image_tag("geneticslab-graph", alt: "graph showing 30 generations of a hypothetical genetic line") %>
+        </div>
+
+        <div class="p-4">
+            <%= image_tag("geneticslab-generations", alt: "breakdown of specific genes from a hypothetical gene line", class: "float-right border float_image") %>
+            <p>
+                This app simulates the evolution of a simple Mendelian genetic locus under different population structures and selection regimes. Users can adjust the strength of natural selection acting on each phenotype and the size of the population in order to test the relative the impact of genetic drift and natural selection under different parameters. The NYU Anthropology department uses it in their Introduction to Human Evolution class to teach students about the forces that drive evolution.
+            </p>
+            <p>
+                The app is very lightweight, designed to run client-side in a web browser with vanilla CSS and JS, and a single library to generate the graph. This allows for easy use and distribution of the app in the classroom. 
+            </p>
+            <span>You can find the Github repo <a href="https://github.com/spearw/genetics_lab" target="_blank">here.</span>
+        </div>
+    </div>
+</div>
