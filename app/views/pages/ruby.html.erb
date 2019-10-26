@@ -1,0 +1,67 @@
+<div class="border-top">
+    <div class="project_main_container">
+        <h2 class="text-center p-4">
+            Ruby Scripts
+        </h2>
+        <p>
+            These aren’t full projects with visuals, but rather some scripts I wrote to test my ability with more abstracted programming concepts. All scripts here are written in Ruby, and usually interact with the command line. 
+        </p>
+        <p>
+            Github for all Ruby scripts except for chess and hangman (which have multiple files) can be found <a href="https://github.com/spearw/ruby_scripts" target="_blank">here.</a>
+        </p>
+
+        <div class="p-4">
+            <div class="p-3 d-inline-block">
+                <h3 class="mb-3"> 
+                    Chess
+                </h3>
+                <%= image_tag("chess-ruby", alt: "command line chess game", class: "float-right border float_image ml-3") %>
+                <p>
+                    This is a chess interface run in the terminal. A user can input moves on each side, and the script will check for valid moves and update the board appropriately. 
+                </p>
+                <p>
+                    <span><a href="https://github.com/spearw/chess" target="_blank">Github Repo</a></span>
+                </p> 
+            </div>
+
+            <div class="p-3 mt-3 d-inline-block">
+                <h3 class="mb-3"> 
+                    Hangman
+                </h3>
+                <%= image_tag("hangman-ruby", alt: "command line hangman game", class: "float-left border float_image mr-3") %>
+                <p>
+                    This is a hangman interface run in the terminal, using a free word dictionary. Saving and loading games is supported.
+                </p>
+                <p>
+                    <span><a href="https://github.com/spearw/hangman" target="_blank">Github Repo</a></span>
+                </p> 
+            </div>
+
+            <div class="p-3 d-inline-block">
+                <h3 class="mb-3"> 
+                    Merge Sort
+                </h3>
+                <%= image_tag("merge-sort", alt: "Merge sort example diagram", class: "float-right border float_image ml-3") %>
+                <p>
+                    This implements a <a href="https://en.wikipedia.org/wiki/Merge_sort">merge sort</a> algorithm. This is a comparison based sorting algorithm where each data node is compared to the last, resulting in a fully sorted list.
+                </p>
+                <p>
+                    <span><a href="https://github.com/spearw/ruby_scripts" target="_blank">Github Repo</a></span>
+                </p> 
+            </div>
+
+            <div class="p-3 mt-3 d-inline-block">
+                <h3 class="mb-3"> 
+                    Linked List
+                </h3>
+                <%= image_tag("linked-list", alt: "Linked list example diagram", class: "float-left border float_image mr-3") %>
+                <p>
+                    This creates a <a href="https://en.wikipedia.org/wiki/Linked_list">linked list</a>, a data structure where each element points to the next. Linked lists are the groundwork for more complicated data structures, such as trees or graphs, and are very useful in dynamic memory allocation.
+                </p>
+                <p>
+                    <span><a href="https://github.com/spearw/ruby_scripts" target="_blank">Github Repo</a></span>
+                </p> 
+            </div>
+        </div>
+    </div>
+</div>
