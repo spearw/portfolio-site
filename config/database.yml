@@ -16,9 +16,11 @@ test:
 
 production:
   adapter: postgresql
-  host: [ec2-54-235-163-246.compute-1.amazonaws.com] 
-  database: [d8vvpqoduhfij9] 
-  username: [taggdrckepiqtg]
-  password: [fac792a9cd045a17bcf52e5428d09ca432915cfa97af409025f9635d05fccb1a]
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
+  host: ec2-54-235-163-246.compute-1.amazonaws.com
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: [database]
+  username: [username]
+  password: [password]
+  port: 5432
