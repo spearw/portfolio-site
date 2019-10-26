@@ -15,5 +15,10 @@ test:
   database: db/pg_test
 
 production:
-  <<: *default
-  database: db/pg_production
+  adapter: postgresql
+  host: [ec2-54-235-163-246.compute-1.amazonaws.com] 
+  database: [d8vvpqoduhfij9] 
+  username: [taggdrckepiqtg]
+  password: [fac792a9cd045a17bcf52e5428d09ca432915cfa97af409025f9635d05fccb1a]
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  timeout: 5000
