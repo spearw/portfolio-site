@@ -1,6 +1,6 @@
 var blurbList = ["love to develop.", "am scared of the ocean.", "am a doer.", "play guitar, sometimes passably.", "am an embarrassed singer.", "learned coding on my own.", "was a champion fencer.", "tutor writing and philosophy.", "coach children.", "laugh when it's inappropriate.",
-"took Latin in college.", "speak a little Japanese.", "broke my arm during NCAA championships.", "still have my St. Johns Law umbrella from admitted students day.", "play Fortnite, and try not to tell any kids.", "married my highschool sweetheart.", "make a great breakfast sandwich", 
-"have traveled the world - and seen a LOT of convention centers.", "think you should visit Budapest if you can.", "like cold drinks, even in winter.", "like my coffee.", "gave a best man speech with two minutes warning.", "think Mulan is the best Disney movie, but Moana has the best music.",
+"took Latin in college.", "speak a little Japanese.", "broke my arm during NCAA championships.", "still use my St. Johns Law umbrella from admitted students day.", "play Fortnite, and try not to tell any kids.", "married my highschool sweetheart.", "make a great breakfast sandwich.", 
+"have traveled the world - and seen a LOT of convention centers.", "think you should visit Budapest if you can.", "like iced coffee, even in winter.", "like my coffee.", "gave a best man speech with two minutes warning.", "think Mulan is the best Disney movie, but Moana has the best music.",
 "was captain of my college Fencing team."
 ]
 
